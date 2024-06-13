@@ -30,7 +30,7 @@
   <h1>Juego de preguntas y respuestas</h1>
   <div class="question">
     <h2>Pregunta 1: ¿Donde se encuentran los pumas?</h2>
-    <img src="puma.jpg" alt="Puma">
+    <img src="https://www.elpucara.com/galeria/fotos/2021/05/04/o_puma-en-peligro-de-extincion.jpg" alt="Puma">
     <ul>
       <li><button onclick="checkAnswer(this)">Altas montañas</button></li>
       <li><button onclick="checkAnswer(this)">La sabana</button></li>
@@ -41,9 +41,9 @@
   </div>
   <div class="question">
     <h2>Pregunta 2: ¿Que comen los tucanes?</h2>
-    <img src="Tucan.jpg" alt="Tucan">
+    <img src="https://www.hogarmania.com/archivos/202207/tucan-1280x720x80xX.jpg" alt="Tucan">
     <ul>
-      <li><button onclick="checkAnswer(this)">Maiz</button></li>
+      <li><button onclick="checkAnswer(this)">Plastico</button></li>
       <li><button onclick="checkAnswer(this)">Maiz</button></li>
       <li><button onclick="checkAnswer(this)">Gran variedad de frutos</button></li>
       <li><button onclick="checkAnswer(this)">Pasto</button></li>
@@ -52,7 +52,7 @@
   </div>
   <div class="question">
     <h2>Pregunta 3: ¿Que significa la palabra Yacaré en Guarani?</h2>
-    <img src="Yacare.jpg" alt="Yacare">
+    <img src="https://www.infocampo.com.ar/wp-content/uploads/2019/08/yacare-negro.jpg" alt="Yacare">
     <ul>
       <li><button onclick="checkAnswer(this)">El que nada rapido</button></li>
       <li><button onclick="checkAnswer(this)">El que asoma la cabeza</button></li>
@@ -63,7 +63,7 @@
   </div>
   <div class="question">
     <h2>Pregunta 4: ¿Cuantos dientes tiene el yacare?</h2>
-    <img src="Yacare.jpg" alt="Yacare">
+    <img src="https://www.infocampo.com.ar/wp-content/uploads/2019/08/yacare-negro.jpg" alt="Yacare">
     <ul>
       <li><button onclick="checkAnswer(this)">Entre 81 y 79</button></li>
       <li><button onclick="checkAnswer(this)">Entre 86 y 78</button></li>
@@ -74,7 +74,7 @@
   </div>
   <div class="question">
     <h2>Pregunta 5: ¿Cual diferencia hay entre el yaguareté y el Leopardo?</h2>
-    <img src="yaguareté.jpg" alt="yaguareté">
+    <img src="https://live.staticflickr.com/65535/49898678587_3132c19c0c_b.jpg" alt="yaguareté">
     <ul>
       <li><button onclick="checkAnswer(this)">Que el yaguarete vive en misiones</button></li>
       <li><button onclick="checkAnswer(this)">Que tienen diferente pelaje</button></li>
@@ -90,7 +90,7 @@ function checkAnswer(btn) {
   var correctAnswer;
   switch(btn.textContent.trim()) {
     case "Altas montañas":
-    case "gran variedad de frutos":
+    case "Gran variedad de frutos":
     case "El que asoma la cabeza":
     case "Entre 86 y 78":
     case "Que tienen diferente pelaje":
